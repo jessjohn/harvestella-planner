@@ -1,0 +1,570 @@
+[
+  {
+    "name": "Carrop Seeds",
+    "farmableSeasons": [
+      "Spring",
+      "Summer"
+    ],
+    "sellPrice": 105,
+    "": ""
+  },
+  {
+    "name": "Stellar Wheat Seeds",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "price": 40,
+    "purchaseLocation": "Lethe General Store",
+    "cropProduced": "Stellar Wheat",
+    "canWither": true,
+    "daysToGrow": 2,
+    "daysToMature": 2,
+    "reharvestable": false,
+    "harvestsPerSeed": 1,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Grass Seeds",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "price": 30,
+    "purchaseLocation": "Lethe General Store",
+    "cropProduced": "Grass",
+    "canWither": true,
+    "daysToGrow": 2,
+    "daysToMature": 2,
+    "reharvestable": false,
+    "harvestsPerSeed": 1,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Dress Lettuce Seeds",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "price": 55,
+    "purchaseLocation": "Lethe General Store",
+    "cropProduced": "Dress Lettuce",
+    "canWither": true,
+    "daysToGrow": 2,
+    "daysToMature": 2,
+    "reharvestable": false,
+    "harvestsPerSeed": 1,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Unionion Seeds",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "price": 105,
+    "purchaseLocation": "Lethe General Store",
+    "cropProduced": "Unionion",
+    "canWither": true,
+    "daysToGrow": 3,
+    "daysToMature": 3,
+    "reharvestable": false,
+    "harvestsPerSeed": 1,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Cucumble Seeds",
+    "farmableSeasons": [
+      "Spring"
+    ],
+    "price": 370,
+    "purchaseLocation": "Lethe General Store",
+    "cropProduced": "Cucumble",
+    "canWither": true,
+    "daysToGrow": 3,
+    "daysToMature": 4,
+    "reharvestable": true,
+    "harvestsPerSeed": 6,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Morrocorn Seeds",
+    "farmableSeasons": [
+      "Summer",
+      "Autumn"
+    ],
+    "price": 230,
+    "purchaseLocation": "Lethe General Store",
+    "cropProduced": "Morrocorn",
+    "canWither": true,
+    "daysToGrow": 4,
+    "daysToMature": 4,
+    "reharvestable": false,
+    "harvestsPerSeed": 1,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Bellhop Seeds",
+    "farmableSeasons": [
+      "Summer"
+    ],
+    "price": 560,
+    "purchaseLocation": "Shatolla General Store",
+    "cropProduced": "Bellhop",
+    "canWither": true,
+    "daysToGrow": 1,
+    "daysToMature": 7,
+    "reharvestable": true,
+    "harvestsPerSeed": 23,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Lumpotato Seeds",
+    "farmableSeasons": [
+      "Autumn",
+      "Winter"
+    ],
+    "price": 90,
+    "purchaseLocation": "Lethe General Store",
+    "cropProduced": "Lumpotato",
+    "canWither": true,
+    "daysToGrow": 3,
+    "daysToMature": 3,
+    "reharvestable": false,
+    "harvestsPerSeed": 1,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Royal Eggplant Seeds",
+    "farmableSeasons": [
+      "Autumn"
+    ],
+    "price": 780,
+    "purchaseLocation": "Lethe General Store",
+    "cropProduced": "Royal Eggplant",
+    "canWither": true,
+    "daysToGrow": 2,
+    "daysToMature": 7,
+    "reharvestable": true,
+    "harvestsPerSeed": 3,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Rainbow Bean Seeds",
+    "farmableSeasons": [
+      "Autumn"
+    ],
+    "price": 180,
+    "purchaseLocation": "Lethe General Store",
+    "cropProduced": "Rainbow Bean",
+    "canWither": true,
+    "daysToGrow": 2,
+    "daysToMature": 6,
+    "reharvestable": true,
+    "harvestsPerSeed": 5,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Lantern Pumpkin Seeds",
+    "farmableSeasons": [
+      "Autumn"
+    ],
+    "price": 1800,
+    "purchaseLocation": "Lethe General Store",
+    "cropProduced": "Lantern Pumpkin",
+    "canWither": true,
+    "daysToGrow": 11,
+    "daysToMature": 11,
+    "reharvestable": false,
+    "harvestsPerSeed": 1,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Honey Flower Seeds",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "price": 380,
+    "purchaseLocation": "Shatolla General Store",
+    "cropProduced": "Honey Flower",
+    "canWither": true,
+    "daysToGrow": 6,
+    "daysToMature": 6,
+    "reharvestable": false,
+    "harvestsPerSeed": 1,
+    "cropType": "Waterside"
+  },
+  {
+    "name": "Curry Herbs Seeds",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "price": 380,
+    "purchaseLocation": "Shatolla General Store",
+    "cropProduced": "Curry Herbs",
+    "canWither": true,
+    "daysToGrow": 6,
+    "daysToMature": 6,
+    "reharvestable": false,
+    "harvestsPerSeed": 1,
+    "cropType": "Cave"
+  },
+  {
+    "name": "Nemean Tomato Seeds",
+    "farmableSeasons": [
+      "Spring",
+      "Summer"
+    ],
+    "price": 170,
+    "purchaseLocation": "Nemea General Store",
+    "cropProduced": "Nemean Tomato",
+    "canWither": true,
+    "daysToGrow": 1,
+    "daysToMature": 5,
+    "reharvestable": true,
+    "harvestsPerSeed": 6,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Tingle Radish Seeds",
+    "farmableSeasons": [
+      "Spring"
+    ],
+    "price": 390,
+    "purchaseLocation": "Nemea General Store",
+    "cropProduced": "Tingle Radish",
+    "canWither": true,
+    "daysToGrow": 4,
+    "daysToMature": 4,
+    "reharvestable": false,
+    "harvestsPerSeed": 1,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Strawbuddy Seeds",
+    "farmableSeasons": [
+      "Spring"
+    ],
+    "price": 220,
+    "purchaseLocation": "Nemea General Store",
+    "cropProduced": "Strawbuddy",
+    "canWither": true,
+    "daysToGrow": 2,
+    "daysToMature": 4,
+    "reharvestable": true,
+    "harvestsPerSeed": 5,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Nectarcane Seeds",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "price": 370,
+    "purchaseLocation": "Nemea General Store",
+    "cropProduced": "Nectarcane",
+    "canWither": true,
+    "daysToGrow": 3,
+    "daysToMature": 4,
+    "reharvestable": true,
+    "harvestsPerSeed": 3,
+    "cropType": "Waterside"
+  },
+  {
+    "name": "Shatollan Paprika Seeds",
+    "farmableSeasons": [
+      "Summer"
+    ],
+    "price": 250,
+    "purchaseLocation": "Shatollan General Store",
+    "cropProduced": "Shatollan Paprika",
+    "canWither": true,
+    "daysToGrow": 2,
+    "daysToMature": 5,
+    "reharvestable": true,
+    "harvestsPerSeed": 9,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Seatide Garlic Seeds",
+    "farmableSeasons": [
+      "Summer"
+    ],
+    "price": 650,
+    "purchaseLocation": "Shatollan General Store",
+    "cropProduced": "Seatide Garlic",
+    "canWither": true,
+    "daysToGrow": 6,
+    "daysToMature": 6,
+    "reharvestable": false,
+    "harvestsPerSeed": 1,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Islet Watermelon Seeds",
+    "farmableSeasons": [
+      "Summer"
+    ],
+    "price": 2500,
+    "purchaseLocation": "Shatollan General Store",
+    "cropProduced": "Islet Watermelon",
+    "canWither": true,
+    "daysToGrow": 12,
+    "daysToMature": 12,
+    "reharvestable": false,
+    "harvestsPerSeed": 1,
+    "cropType": "Waterside"
+  },
+  {
+    "name": "Argene Cabbage Seeds",
+    "farmableSeasons": [
+      "Spring",
+      "Winter"
+    ],
+    "price": 220,
+    "purchaseLocation": "Argene General Store",
+    "cropProduced": "Argene Cabbage",
+    "canWither": true,
+    "daysToGrow": 4,
+    "daysToMature": 4,
+    "reharvestable": false,
+    "harvestsPerSeed": 1,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Chilly Plant Seeds",
+    "farmableSeasons": [
+      "Winter"
+    ],
+    "price": 800,
+    "purchaseLocation": "Argene General Store",
+    "cropProduced": "Chilly Plant",
+    "canWither": true,
+    "daysToGrow": 7,
+    "daysToMature": 7,
+    "reharvestable": false,
+    "harvestsPerSeed": 1,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Sudor Pepper Seeds",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "price": 400,
+    "purchaseLocation": "Argene General Store",
+    "cropProduced": "Sudor Pepper",
+    "canWither": true,
+    "daysToGrow": 3,
+    "daysToMature": 3,
+    "reharvestable": true,
+    "harvestsPerSeed": 3,
+    "cropType": "Cave"
+  },
+  {
+    "name": "Revol Pepper Seeds",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "price": 560,
+    "purchaseLocation": "Argene General Store",
+    "cropProduced": "Revol Pepper",
+    "canWither": true,
+    "daysToGrow": 3,
+    "daysToMature": 4,
+    "reharvestable": true,
+    "harvestsPerSeed": 5,
+    "cropType": "Cave"
+  },
+  {
+    "name": "Eden Rice Seeds",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "price": 20,
+    "purchaseLocation": "Abandoned Eden General Store",
+    "cropProduced": "Eden Rice",
+    "canWither": true,
+    "daysToGrow": 3,
+    "daysToMature": 3,
+    "reharvestable": false,
+    "harvestsPerSeed": 1,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Nitro Pineapple Seeds",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "price": 0,
+    "purchaseLocation": null,
+    "cropProduced": "Nitro Pineapple",
+    "canWither": true,
+    "daysToGrow": 6,
+    "daysToMature": 6,
+    "reharvestable": false,
+    "harvestsPerSeed": 1,
+    "cropType": "Cave"
+  },
+  {
+    "name": "Wisty Peach Sapling",
+    "farmableSeasons": [
+      "Spring"
+    ],
+    "price": 4200,
+    "purchaseLocation": "Nemea General Store",
+    "cropProduced": "Wisty Peach",
+    "canWither": false,
+    "daysToGrow": 2,
+    "daysToMature": 10,
+    "reharvestable": true,
+    "harvestsPerSeed": 10,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Numblemon Sapling",
+    "farmableSeasons": [
+      "Summer"
+    ],
+    "price": 2200,
+    "purchaseLocation": "Shatolla General Store",
+    "cropProduced": "Numblemon",
+    "canWither": false,
+    "daysToGrow": 1,
+    "daysToMature": 6,
+    "reharvestable": true,
+    "harvestsPerSeed": 24,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Macocoa Sapling",
+    "farmableSeasons": [
+      "Summer"
+    ],
+    "price": 2400,
+    "purchaseLocation": "Abandoned Eden General Store",
+    "cropProduced": "Macocoa",
+    "canWither": false,
+    "daysToGrow": 1,
+    "daysToMature": 6,
+    "reharvestable": true,
+    "harvestsPerSeed": 24,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Lococonut Sapling",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "price": 3200,
+    "purchaseLocation": "Shatolla General Store",
+    "cropProduced": "Lococonut",
+    "canWither": false,
+    "daysToGrow": 2,
+    "daysToMature": 7,
+    "reharvestable": true,
+    "harvestsPerSeed": 12,
+    "cropType": "Waterside"
+  },
+  {
+    "name": "Grouply Grades Sapling",
+    "farmableSeasons": [
+      "Autumn"
+    ],
+    "price": 2000,
+    "purchaseLocation": "Lethe General Store",
+    "cropProduced": "Grouply Grades",
+    "canWither": false,
+    "daysToGrow": 1,
+    "daysToMature": 6,
+    "reharvestable": true,
+    "harvestsPerSeed": 24,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Princess Chestnut Sapling",
+    "farmableSeasons": [
+      "Autumn"
+    ],
+    "price": 2200,
+    "purchaseLocation": "Lethe General Store",
+    "cropProduced": "Princess Chestnut",
+    "canWither": false,
+    "daysToGrow": 2,
+    "daysToMature": 7,
+    "reharvestable": true,
+    "harvestsPerSeed": 12,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Snowcap Mikan Sapling",
+    "farmableSeasons": [
+      "Winter"
+    ],
+    "price": 2300,
+    "purchaseLocation": "Argene General Store",
+    "cropProduced": "Snowcap Mikan",
+    "canWither": false,
+    "daysToGrow": 2,
+    "daysToMature": 7,
+    "reharvestable": true,
+    "harvestsPerSeed": 12,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Promised Fruit Sapling",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ],
+    "price": 0,
+    "purchaseLocation": null,
+    "cropProduced": "Promised Fruit",
+    "canWither": false,
+    "daysToGrow": 2,
+    "daysToMature": 7,
+    "reharvestable": true,
+    "harvestsPerSeed": 12,
+    "cropType": "Farm"
+  },
+  {
+    "name": "Moonfruit Sapling",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ],
+    "price": 0,
+    "purchaseLocation": null,
+    "cropProduced": "Moonfruit",
+    "canWither": false,
+    "daysToGrow": 3,
+    "daysToMature": 12,
+    "reharvestable": true,
+    "harvestsPerSeed": 6,
+    "cropType": "Farm"
+  }
+]
