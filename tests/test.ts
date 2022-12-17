@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test';
-import seedData from "$lib/data/seeds.json" assert {type: 'json'};
+import seedData from "$lib/data/seeds.json";
 import { seedToCrop } from "$lib/utils/seedToCrop";
 
 test('about page has expected h1', async ({ page }) => {
