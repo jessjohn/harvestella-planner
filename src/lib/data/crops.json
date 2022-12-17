@@ -1,0 +1,325 @@
+[
+  {
+    "name": "Carrop",
+    "farmableSeasons": [
+      "Spring",
+      "Summer"
+    ],
+    "sellPrice": 115,
+    "highQualitySellPrice": 145
+  },
+  {
+    "name": "Stellar Wheat",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "sellPrice": 55,
+    "highQualitySellPrice": 70
+  },
+  {
+    "name": "Grass",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "sellPrice": 35,
+    "highQualitySellPrice": 45
+  },
+  {
+    "name": "Dress Lettuce",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "sellPrice": 85,
+    "highQualitySellPrice": 105
+  },
+  {
+    "name": "Unionion",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "sellPrice": 195,
+    "highQualitySellPrice": 245
+  },
+  {
+    "name": "Cucumble",
+    "farmableSeasons": [
+      "Spring"
+    ],
+    "sellPrice": 200,
+    "highQualitySellPrice": 250
+  },
+  {
+    "name": "Morrocorn",
+    "farmableSeasons": [
+      "Summer",
+      "Autumn"
+    ],
+    "sellPrice": 400,
+    "highQualitySellPrice": 500
+  },
+  {
+    "name": "Bellhop",
+    "farmableSeasons": [
+      "Summer"
+    ],
+    "sellPrice": 45,
+    "highQualitySellPrice": 55
+  },
+  {
+    "name": "Lumpotato",
+    "farmableSeasons": [
+      "Autumn",
+      "Winter"
+    ],
+    "sellPrice": 120,
+    "highQualitySellPrice": 150
+  },
+  {
+    "name": "Royal Eggplant",
+    "farmableSeasons": [
+      "Autumn"
+    ],
+    "sellPrice": 480,
+    "highQualitySellPrice": 960
+  },
+  {
+    "name": "Rainbow Bean",
+    "farmableSeasons": [
+      "Autumn"
+    ],
+    "sellPrice": 45,
+    "highQualitySellPrice": 50
+  },
+  {
+    "name": "Lantern Pumpkin",
+    "farmableSeasons": [
+      "Autumn"
+    ],
+    "sellPrice": 3750,
+    "highQualitySellPrice": 4700
+  },
+  {
+    "name": "Honey Flower",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "sellPrice": 630,
+    "highQualitySellPrice": 785
+  },
+  {
+    "name": "Curry Herbs",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "sellPrice": 350,
+    "highQualitySellPrice": 435
+  },
+  {
+    "name": "Nemean Tomato",
+    "farmableSeasons": [
+      "Spring",
+      "Summer"
+    ],
+    "sellPrice": 65,
+    "highQualitySellPrice": 95
+  },
+  {
+    "name": "Tingle Radish",
+    "farmableSeasons": [
+      "Spring"
+    ],
+    "sellPrice": 530,
+    "highQualitySellPrice": 1100
+  },
+  {
+    "name": "Strawbuddy",
+    "farmableSeasons": [
+      "Spring"
+    ],
+    "sellPrice": 130,
+    "highQualitySellPrice": 160
+  },
+  {
+    "name": "Nectarcane",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "sellPrice": 250,
+    "highQualitySellPrice": 310
+  },
+  {
+    "name": "Shatollan Paprika",
+    "farmableSeasons": [
+      "Summer"
+    ],
+    "sellPrice": 110,
+    "highQualitySellPrice": 135
+  },
+  {
+    "name": "Seatide Garlic",
+    "farmableSeasons": [
+      "Summer"
+    ],
+    "sellPrice": 1000,
+    "highQualitySellPrice": 2000
+  },
+  {
+    "name": "Islet Watermelon",
+    "farmableSeasons": [
+      "Summer"
+    ],
+    "sellPrice": 4600,
+    "highQualitySellPrice": 5800
+  },
+  {
+    "name": "Argene Cabbage",
+    "farmableSeasons": [
+      "Spring",
+      "Winter"
+    ],
+    "sellPrice": 320,
+    "highQualitySellPrice": 400
+  },
+  {
+    "name": "Chilly Plant",
+    "farmableSeasons": [
+      "Winter"
+    ],
+    "sellPrice": 1300,
+    "highQualitySellPrice": 1600
+  },
+  {
+    "name": "Sudor Pepper",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "sellPrice": 250,
+    "highQualitySellPrice": 310
+  },
+  {
+    "name": "Revol Pepper",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "sellPrice": 265,
+    "highQualitySellPrice": 330
+  },
+  {
+    "name": "Eden Rice",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "sellPrice": 35,
+    "highQualitySellPrice": 45
+  },
+  {
+    "name": "Nitro Pineapple",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "sellPrice": 5,
+    "highQualitySellPrice": 5
+  },
+  {
+    "name": "Wisty Peach",
+    "farmableSeasons": [
+      "Spring"
+    ],
+    "sellPrice": 115,
+    "highQualitySellPrice": 230
+  },
+  {
+    "name": "Numblemon",
+    "farmableSeasons": [
+      "Summer"
+    ],
+    "sellPrice": 95,
+    "highQualitySellPrice": 120
+  },
+  {
+    "name": "Macocoa",
+    "farmableSeasons": [
+      "Summer"
+    ],
+    "sellPrice": 100,
+    "highQualitySellPrice": 150
+  },
+  {
+    "name": "Lococonut",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "sellPrice": 35,
+    "highQualitySellPrice": 45
+  },
+  {
+    "name": "Grouply Grades",
+    "farmableSeasons": [
+      "Autumn"
+    ],
+    "sellPrice": 85,
+    "highQualitySellPrice": 105
+  },
+  {
+    "name": "Princess Chestnut",
+    "farmableSeasons": [
+      "Autumn"
+    ],
+    "sellPrice": 60,
+    "highQualitySellPrice": 75
+  },
+  {
+    "name": "Snowcap Mikan",
+    "farmableSeasons": [
+      "Winter"
+    ],
+    "sellPrice": 65,
+    "highQualitySellPrice": 80
+  },
+  {
+    "name": "Promised Fruit",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ],
+    "sellPrice": 30,
+    "highQualitySellPrice": 35
+  },
+  {
+    "name": "Moonfruit",
+    "farmableSeasons": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ],
+    "sellPrice": 100,
+    "highQualitySellPrice": 125
+  }
+]

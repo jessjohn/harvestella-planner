@@ -1,6 +1,18 @@
+<script>
+  import Table from "$lib/components/Table.svelte";
+  import cropData from "$lib/data/crops.json";
+  import Dropdown from "$lib/components/Dropdown.svelte";
+  import NumberInput from "$lib/components/NumberInput.svelte";
+
+  let season = "Spring"
+  let amount = 10000;
+  let day = 1;
+  let farmSize = "Lvl 1 (22 squares)";
+</script>
+
 <svelte:head>
-	<title>Crop Planner</title>
-	<meta name="description" content="Crop Planner" />
+  <title>Crop Planner</title>
+  <meta name="description" content="Crop Planner" />
 </svelte:head>
 
 <section>
@@ -8,33 +20,23 @@
     Crop Planner
   </h1>
 </section>
-
+<section class="grid grid-flow-row-dense grid-cols-5 grid-rows-1 items-end gap-x-4 my-4">
+  <Dropdown label="Current Season" options={["Spring", "Summer", "Autumn", "Winter"]} selected={season}/>
+  <NumberInput label="Day" amount={day} />
+  <NumberInput label="Grilla to Spend" amount={amount} />
+  <Dropdown label="Farm Size" options={["Lvl 1 (22 squares)", "Lvl 2 (44 squares)", "Lvl 3 (66 squares)", "Lvl 4 (88 squares)"]} selected={farmSize}/>
+  <button class="bg-slate-500 self-end p-1.5 rounded">Maximize Profits</button>
+</section>
 
 <section>
-  <table class="border-collapse w-full border border-slate-400 dark:border-slate-500 bg-white dark:bg-slate-800 text-sm shadow-sm">
-    <thead class="bg-slate-50 dark:bg-slate-700">
-    <tr>
-      <th class="w-1/2 border border-slate-300 dark:border-slate-600 font-semibold p-4 text-slate-900 dark:text-slate-200 text-left">Header</th>
-      <th class="w-1/2 border border-slate-300 dark:border-slate-600 font-semibold p-4 text-slate-900 dark:text-slate-200 text-left">Header</th>
-      <th class="w-1/2 border border-slate-300 dark:border-slate-600 font-semibold p-4 text-slate-900 dark:text-slate-200 text-left">Header</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400 hover:bg-slate-50/25">Daddy Made You Some Content</td>
-      <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400 hover:bg-slate-50/25">Daddy Made You Some Content</td>
-      <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400 hover:bg-slate-50/25">Daddy Made You Some Content</td>
-    </tr>
-    <tr>
-      <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400 hover:bg-slate-50/25">Daddy Made You Some Content</td>
-      <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400 hover:bg-slate-50/25">Daddy Made You Some Content</td>
-      <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400 hover:bg-slate-50/25">Daddy Made You Some Content</td>
-    </tr>
-    <tr>
-      <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400 hover:bg-slate-50/25">Daddy Made You Some Content</td>
-      <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400 hover:bg-slate-50/25">Daddy Made You Some Content</td>
-      <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400 hover:bg-slate-50/25">Daddy Made You Some Content</td>
-    </tr>
-    </tbody>
-  </table>
+
+</section>
+
+<section>
+  <Table
+    headers={["Name","Season(s)","Normal Quality Sell Price", "High Quality Sell Price"]}
+    rows={cropData}
+    sortBy="sellPrice"
+    sortDirection="desc"
+  />
 </section>
